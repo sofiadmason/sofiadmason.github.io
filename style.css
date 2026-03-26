@@ -1,40 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fdf6f0;
-    color: #333333;
+#sc-title {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 800px;
 }
 
-#index-title {
-    position: absolute;
-    top: 40px;
-    left: 60px;
+#sc-subtitle {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 700px;
 }
 
-#index-text {
-    position: absolute;
-    top: 120px;
-    left: 60px;
-    width: 500px;
+#sc-image {
+  position: absolute;
+  top: 200px;
+  left: 50px;
 }
 
-#index-link {
-    position: absolute;
-    top: 180px;
-    left: 60px;
+#sc-text1 {
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  width: 600px;
 }
 
-#page-title {
-    position: absolute;
-    top: 30px;
-    left: 50px;
+#sc-text2 {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  width: 600px;
 }
 
-#intro {
-    position: absolute;
-    top: 110px;
-    left: 50px;
-    width: 700px;
+#sc-home {
+  position: absolute;
+  top: 580px;
+  left: 50px;
 }
+
+/* HOT YOGA LINK */
+#sc-hotyoga {
+  position: absolute;
+  top: 620px;
+  left: 50px;
+}}
 
 #section1 {
     position: absolute;
