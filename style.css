@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #333333;
+}
+
+#index-title {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+#index-text {
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    width: 500px;
+}
+
+#index-link {
+    position: absolute;
+    top: 180px;
+    left: 60px;
+}
+
+#page-title {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+#intro {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    width: 700px;
+}
+
+#section1 {
+    position: absolute;
+    top: 240px;
+    left: 50px;
+    width: 300px;
+}
+
+#section2 {
+    position: absolute;
+    top: 240px;
+    left: 430px;
+    width: 300px;
+}
+
+#section3 {
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    width: 300px;
+}
+
+#section4 {
+    position: absolute;
+    top: 430px;
+    left: 430px;
+    width: 300px;
+}
+
+#home-link {
+    position: absolute;
+    top: 620px;
+    left: 50px;
+}
+
+a {
+    color: #a33c2f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#hotyoga-link {
+    position: absolute;
+    top: 700px; /* adjust if needed */
+    left: 50px;
+}
