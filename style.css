@@ -1,10 +1,49 @@
+/* GENERAL STYLING */
 body {
   font-family: Arial, sans-serif;
   background-color: #fdf6f0;
   color: #333333;
 }
 
-/* TITLE */
+a {
+  color: #a33c2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ========================= */
+/* INDEX PAGE */
+/* ========================= */
+
+#index-title {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+#index-text {
+  position: absolute;
+  top: 120px;
+  left: 60px;
+  width: 500px;
+}
+
+#index-link {
+  position: absolute;
+  top: 180px;
+  left: 60px;
+}
+
+
+/* ========================= */
+/* SPRING CLEANING PAGE */
+/* ========================= */
+
 #sc-title {
   position: absolute;
   top: 30px;
@@ -12,7 +51,6 @@ body {
   width: 900px;
 }
 
-/* SUBTITLE */
 #sc-subtitle {
   position: absolute;
   top: 120px;
@@ -20,7 +58,6 @@ body {
   width: 700px;
 }
 
-/* IMAGE */
 #sc-image {
   position: absolute;
   top: 200px;
@@ -28,13 +65,177 @@ body {
 }
 
 #sc-image img {
-  width: 700px; /* controls size so it doesn't take over */
+  width: 700px;
 }
 
-/* TEXT BELOW IMAGE */
+/* TEXT BELOW IMAGE (NO OVERLAP) */
 #sc-text1 {
   position: absolute;
-  top: 650px;  /* pushed BELOW image */
+  top: 620px;
+  left: 50px;
+  width: 600px;
+}
+
+#sc-text2 {
+  position: absolute;
+  top: 670px;
+  left: 50px;
+  width: 600px;
+}
+
+#sc-home {
+  position: absolute;
+  top: 740px;
+  left: 50px;
+}
+
+#sc-hotyoga {
+  position: absolute;
+  top: 780px;
+  left: 50px;
+}
+
+
+/* ========================= */
+/* HOT YOGA PAGE */
+/* ========================= */
+
+#hy-title {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 800px;
+}
+
+#hy-subtitle {
+  position: absolute;
+  top: 105px;
+  left: 50px;
+  width: 760px;
+}
+
+#hy-main-image {
+  position: absolute;
+  top: 190px;
+  left: 50px;
+}
+
+#hy-main-image img {
+  width: 520px;
+  border: 3px solid #c97b63;
+}
+
+#hy-intro {
+  position: absolute;
+  top: 210px;
+  left: 610px;
+  width: 360px;
+  background-color: #f7e4da;
+  padding: 14px;
+  border: 2px solid #c97b63;
+}
+
+#hy-box1 {
+  position: absolute;
+  top: 470px;
+  left: 50px;
+  width: 280px;
+  background-color: #f7e4da;
+  padding: 12px;
+  border: 2px solid #c97b63;
+}
+
+#hy-box2 {
+  position: absolute;
+  top: 470px;
+  left: 390px;
+  width: 280px;
+  background-color: #f3d8cc;
+  padding: 12px;
+  border: 2px solid #c97b63;
+}
+
+#hy-image2 {
+  position: absolute;
+  top: 470px;
+  left: 730px;
+}
+
+#hy-image2 img {
+  width: 230px;
+  border: 3px solid #c97b63;
+}
+
+#hy-box3 {
+  position: absolute;
+  top: 760px;
+  left: 50px;
+  width: 280px;
+  background-color: #f3d8cc;
+  padding: 12px;
+  border: 2px solid #c97b63;
+}
+
+#hy-box4 {
+  position: absolute;
+  top: 760px;
+  left: 390px;
+  width: 280px;
+  background-color: #f7e4da;
+  padding: 12px;
+  border: 2px solid #c97b63;
+}
+
+#hy-image3 {
+  position: absolute;
+  top: 760px;
+  left: 730px;
+}
+
+#hy-image3 img {
+  width: 230px;
+  border: 3px solid #c97b63;
+}
+
+#hy-box5 {
+  position: absolute;
+  top: 1035px;
+  left: 50px;
+  width: 910px;
+  background-color: #fff0ea;
+  padding: 14px;
+  border: 2px solid #c97b63;
+}
+
+#hy-links-title {
+  position: absolute;
+  top: 1185px;
+  left: 50px;
+}
+
+#hy-link1 {
+  position: absolute;
+  top: 1245px;
+  left: 50px;
+}
+
+#hy-link2 {
+  position: absolute;
+  top: 1280px;
+  left: 50px;
+}
+
+#hy-link3 {
+  position: absolute;
+  top: 1315px;
+  left: 50px;
+}
+
+#hy-back {
+  position: absolute;
+  top: 1375px;
+  left: 50px;
+}  top: 650px;  /* pushed BELOW image */
   left: 50px;
   width: 600px;
 }
