@@ -1,3 +1,5 @@
+/* GENERAL */
+
 body {
   background-color: #f7f1ea;
   color: #3f332c;
@@ -5,7 +7,7 @@ body {
 }
 
 a {
-  color: #7a4e38;
+  color: #9b3f2f;
   text-decoration: none;
   font-weight: bold;
 }
@@ -14,7 +16,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* INDEX PAGE */
+
+/* ===================== */
+/* PAGE 1: INDEX */
+/* ===================== */
 
 #index-title {
   position: absolute;
@@ -27,40 +32,42 @@ a:hover {
 
 #index-text {
   position: absolute;
-  top: 120px;
+  top: 130px;
   left: 60px;
   width: 500px;
 }
 
 #index-link {
   position: absolute;
-  top: 180px;
+  top: 200px;
   left: 60px;
 }
 
 
-/* SPRING CLEANING PAGE */
+/* ===================== */
+/* PAGE 2: SPRING CLEANING */
+/* ===================== */
 
 #sc-title {
   position: absolute;
   top: 30px;
   left: 50px;
-  width: 900px;
+  width: 950px;
   font-family: Georgia, serif;
   color: #4b3528;
 }
 
 #sc-subtitle {
   position: absolute;
-  top: 120px;
+  top: 145px;
   left: 50px;
-  width: 700px;
+  width: 760px;
   color: #5b4638;
 }
 
 #sc-image {
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 50px;
 }
 
@@ -69,34 +76,38 @@ a:hover {
   border: 3px solid #b88b6a;
 }
 
+/* MOVED TEXT LOWER SO IT DOES NOT COVER IMAGE */
+
 #sc-text1 {
   position: absolute;
-  top: 620px;
+  top: 1020px;
   left: 50px;
-  width: 600px;
+  width: 650px;
 }
 
 #sc-text2 {
   position: absolute;
-  top: 670px;
+  top: 1080px;
   left: 50px;
-  width: 600px;
+  width: 650px;
 }
 
 #sc-home {
   position: absolute;
-  top: 740px;
+  top: 1160px;
   left: 50px;
 }
 
 #sc-hotyoga {
   position: absolute;
-  top: 780px;
+  top: 1210px;
   left: 50px;
 }
 
 
-/* HOT YOGA PAGE */
+/* ===================== */
+/* PAGE 3: HOT YOGA */
+/* ===================== */
 
 #hy-title {
   position: absolute;
@@ -109,7 +120,7 @@ a:hover {
 
 #hy-subtitle {
   position: absolute;
-  top: 120px;
+  top: 130px;
   left: 50px;
   width: 860px;
   color: #5c483a;
@@ -117,20 +128,20 @@ a:hover {
 
 #hy-main-image {
   position: absolute;
-  top: 240px;
+  top: 250px;
   left: 50px;
 }
 
 #hy-main-image img {
-  width: 560px;
+  width: 600px;
   border: 4px solid #b88b6a;
 }
 
 #hy-intro {
   position: absolute;
-  top: 270px;
-  left: 680px;
-  width: 380px;
+  top: 290px;
+  left: 700px;
+  width: 360px;
   background-color: #efe2d4;
   border: 3px solid #b88b6a;
   padding: 18px;
@@ -138,9 +149,9 @@ a:hover {
 
 #hy-box1 {
   position: absolute;
-  top: 690px;
+  top: 920px;
   left: 50px;
-  width: 260px;
+  width: 280px;
   background-color: #f2e8dd;
   border: 3px solid #b88b6a;
   padding: 16px;
@@ -148,9 +159,9 @@ a:hover {
 
 #hy-box2 {
   position: absolute;
-  top: 690px;
-  left: 390px;
-  width: 260px;
+  top: 920px;
+  left: 430px;
+  width: 280px;
   background-color: #ead8c7;
   border: 3px solid #b88b6a;
   padding: 16px;
@@ -158,20 +169,20 @@ a:hover {
 
 #hy-image2 {
   position: absolute;
-  top: 690px;
-  left: 730px;
+  top: 920px;
+  left: 810px;
 }
 
 #hy-image2 img {
-  width: 290px;
+  width: 250px;
   border: 4px solid #b88b6a;
 }
 
 #hy-box3 {
   position: absolute;
-  top: 1060px;
+  top: 1320px;
   left: 50px;
-  width: 260px;
+  width: 280px;
   background-color: #ead8c7;
   border: 3px solid #b88b6a;
   padding: 16px;
@@ -179,9 +190,9 @@ a:hover {
 
 #hy-box4 {
   position: absolute;
-  top: 1060px;
-  left: 390px;
-  width: 260px;
+  top: 1320px;
+  left: 430px;
+  width: 280px;
   background-color: #f2e8dd;
   border: 3px solid #b88b6a;
   padding: 16px;
@@ -189,20 +200,20 @@ a:hover {
 
 #hy-image3 {
   position: absolute;
-  top: 1060px;
-  left: 730px;
+  top: 1320px;
+  left: 810px;
 }
 
 #hy-image3 img {
-  width: 290px;
+  width: 250px;
   border: 4px solid #b88b6a;
 }
 
 #hy-box5 {
   position: absolute;
-  top: 1410px;
+  top: 1710px;
   left: 50px;
-  width: 970px;
+  width: 980px;
   background-color: #fffaf5;
   border: 3px solid #b88b6a;
   padding: 18px;
@@ -210,7 +221,7 @@ a:hover {
 
 #hy-links-title {
   position: absolute;
-  top: 1580px;
+  top: 1940px;
   left: 50px;
   width: 300px;
   font-family: Georgia, serif;
@@ -219,32 +230,30 @@ a:hover {
 
 #hy-link1 {
   position: absolute;
-  top: 1645px;
+  top: 2040px;
   left: 50px;
-  width: 250px;
+  width: 300px;
 }
 
 #hy-link2 {
   position: absolute;
-  top: 1685px;
+  top: 2100px;
   left: 50px;
-  width: 250px;
+  width: 300px;
 }
 
 #hy-link3 {
   position: absolute;
-  top: 1725px;
+  top: 2160px;
   left: 50px;
-  width: 250px;
+  width: 300px;
 }
-
-/* NEW EXTRA CONTENT TO FILL SPACE */
 
 #hy-quote {
   position: absolute;
-  top: 1625px;
-  left: 390px;
-  width: 300px;
+  top: 2025px;
+  left: 430px;
+  width: 260px;
   background-color: #efe2d4;
   border: 3px solid #b88b6a;
   padding: 18px;
@@ -254,9 +263,9 @@ a:hover {
 
 #hy-beginner {
   position: absolute;
-  top: 1625px;
-  left: 730px;
-  width: 290px;
+  top: 2025px;
+  left: 760px;
+  width: 270px;
   background-color: #f2e8dd;
   border: 3px solid #b88b6a;
   padding: 18px;
@@ -264,12 +273,10 @@ a:hover {
 
 #hy-back {
   position: absolute;
-  top: 1875px;
+  top: 2330px;
   left: 50px;
-  width: 300px;
+  width: 320px;
 }
-
-/* HOT YOGA HEADINGS */
 
 #hy-title h1,
 #hy-links-title h2,
@@ -281,295 +288,4 @@ a:hover {
 #hy-beginner h2 {
   font-family: Georgia, serif;
   color: #4b3528;
-}  position: absolute;
-  top: 180px;
-  left: 60px;
-}
-
-
-/* ========================= */
-/* SPRING CLEANING PAGE */
-/* ========================= */
-
-#sc-title {
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  width: 900px;
-}
-
-#sc-subtitle {
-  position: absolute;
-  top: 120px;
-  left: 50px;
-  width: 700px;
-}
-
-#sc-image {
-  position: absolute;
-  top: 200px;
-  left: 50px;
-}
-
-#sc-image img {
-  width: 700px;
-}
-
-/* TEXT BELOW IMAGE (NO OVERLAP) */
-#sc-text1 {
-  position: absolute;
-  top: 620px;
-  left: 50px;
-  width: 600px;
-}
-
-#sc-text2 {
-  position: absolute;
-  top: 670px;
-  left: 50px;
-  width: 600px;
-}
-
-#sc-home {
-  position: absolute;
-  top: 740px;
-  left: 50px;
-}
-
-#sc-hotyoga {
-  position: absolute;
-  top: 780px;
-  left: 50px;
-}
-
-
-/* ========================= */
-/* HOT YOGA PAGE */
-/* ========================= */
-
-#hy-title {
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  width: 800px;
-}
-
-#hy-subtitle {
-  position: absolute;
-  top: 105px;
-  left: 50px;
-  width: 760px;
-}
-
-#hy-main-image {
-  position: absolute;
-  top: 190px;
-  left: 50px;
-}
-
-#hy-main-image img {
-  width: 520px;
-  border: 3px solid #c97b63;
-}
-
-#hy-intro {
-  position: absolute;
-  top: 210px;
-  left: 610px;
-  width: 360px;
-  background-color: #f7e4da;
-  padding: 14px;
-  border: 2px solid #c97b63;
-}
-
-#hy-box1 {
-  position: absolute;
-  top: 470px;
-  left: 50px;
-  width: 280px;
-  background-color: #f7e4da;
-  padding: 12px;
-  border: 2px solid #c97b63;
-}
-
-#hy-box2 {
-  position: absolute;
-  top: 470px;
-  left: 390px;
-  width: 280px;
-  background-color: #f3d8cc;
-  padding: 12px;
-  border: 2px solid #c97b63;
-}
-
-#hy-image2 {
-  position: absolute;
-  top: 470px;
-  left: 730px;
-}
-
-#hy-image2 img {
-  width: 230px;
-  border: 3px solid #c97b63;
-}
-
-#hy-box3 {
-  position: absolute;
-  top: 760px;
-  left: 50px;
-  width: 280px;
-  background-color: #f3d8cc;
-  padding: 12px;
-  border: 2px solid #c97b63;
-}
-
-#hy-box4 {
-  position: absolute;
-  top: 760px;
-  left: 390px;
-  width: 280px;
-  background-color: #f7e4da;
-  padding: 12px;
-  border: 2px solid #c97b63;
-}
-
-#hy-image3 {
-  position: absolute;
-  top: 760px;
-  left: 730px;
-}
-
-#hy-image3 img {
-  width: 230px;
-  border: 3px solid #c97b63;
-}
-
-#hy-box5 {
-  position: absolute;
-  top: 1035px;
-  left: 50px;
-  width: 910px;
-  background-color: #fff0ea;
-  padding: 14px;
-  border: 2px solid #c97b63;
-}
-
-#hy-links-title {
-  position: absolute;
-  top: 1185px;
-  left: 50px;
-}
-
-#hy-link1 {
-  position: absolute;
-  top: 1245px;
-  left: 50px;
-}
-
-#hy-link2 {
-  position: absolute;
-  top: 1280px;
-  left: 50px;
-}
-
-#hy-link3 {
-  position: absolute;
-  top: 1315px;
-  left: 50px;
-}
-
-#hy-back {
-  position: absolute;
-  top: 1375px;
-  left: 50px;
-}  top: 650px;  /* pushed BELOW image */
-  left: 50px;
-  width: 600px;
-}
-
-#sc-text2 {
-  position: absolute;
-  top: 700px;
-  left: 50px;
-  width: 600px;
-}
-
-/* LINKS */
-#sc-home {
-  position: absolute;
-  top: 740px;
-  left: 50px;
-}
-
-#sc-hotyoga {
-  position: absolute;
-  top: 780px;
-  left: 50px;
-}
-
-/* LINK STYLE */
-a {
-  color: #a33c2f;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}  top: 580px;
-  left: 50px;
-}
-
-/* HOT YOGA LINK */
-#sc-hotyoga {
-  position: absolute;
-  top: 620px;
-  left: 50px;
-}}
-
-#section1 {
-    position: absolute;
-    top: 240px;
-    left: 50px;
-    width: 300px;
-}
-
-#section2 {
-    position: absolute;
-    top: 240px;
-    left: 430px;
-    width: 300px;
-}
-
-#section3 {
-    position: absolute;
-    top: 430px;
-    left: 50px;
-    width: 300px;
-}
-
-#section4 {
-    position: absolute;
-    top: 430px;
-    left: 430px;
-    width: 300px;
-}
-
-#home-link {
-    position: absolute;
-    top: 620px;
-    left: 50px;
-}
-
-a {
-    color: #a33c2f;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-#hotyoga-link {
-    position: absolute;
-    top: 700px; /* adjust if needed */
-    left: 50px;
 }
