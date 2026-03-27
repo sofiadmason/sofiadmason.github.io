@@ -1,12 +1,11 @@
-/* GENERAL STYLING */
 body {
+  background-color: #f7f1ea;
+  color: #3f332c;
   font-family: Arial, sans-serif;
-  background-color: #fdf6f0;
-  color: #333333;
 }
 
 a {
-  color: #a33c2f;
+  color: #7a4e38;
   text-decoration: none;
   font-weight: bold;
 }
@@ -15,15 +14,15 @@ a:hover {
   text-decoration: underline;
 }
 
-
-/* ========================= */
 /* INDEX PAGE */
-/* ========================= */
 
 #index-title {
   position: absolute;
   top: 40px;
   left: 60px;
+  width: 700px;
+  font-family: Georgia, serif;
+  color: #4b3528;
 }
 
 #index-text {
@@ -35,6 +34,254 @@ a:hover {
 
 #index-link {
   position: absolute;
+  top: 180px;
+  left: 60px;
+}
+
+
+/* SPRING CLEANING PAGE */
+
+#sc-title {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 900px;
+  font-family: Georgia, serif;
+  color: #4b3528;
+}
+
+#sc-subtitle {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 700px;
+  color: #5b4638;
+}
+
+#sc-image {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+#sc-image img {
+  width: 700px;
+  border: 3px solid #b88b6a;
+}
+
+#sc-text1 {
+  position: absolute;
+  top: 620px;
+  left: 50px;
+  width: 600px;
+}
+
+#sc-text2 {
+  position: absolute;
+  top: 670px;
+  left: 50px;
+  width: 600px;
+}
+
+#sc-home {
+  position: absolute;
+  top: 740px;
+  left: 50px;
+}
+
+#sc-hotyoga {
+  position: absolute;
+  top: 780px;
+  left: 50px;
+}
+
+
+/* HOT YOGA PAGE */
+
+#hy-title {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+  width: 850px;
+  font-family: Georgia, serif;
+  color: #4b3528;
+}
+
+#hy-subtitle {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  width: 860px;
+  color: #5c483a;
+}
+
+#hy-main-image {
+  position: absolute;
+  top: 240px;
+  left: 50px;
+}
+
+#hy-main-image img {
+  width: 560px;
+  border: 4px solid #b88b6a;
+}
+
+#hy-intro {
+  position: absolute;
+  top: 270px;
+  left: 680px;
+  width: 380px;
+  background-color: #efe2d4;
+  border: 3px solid #b88b6a;
+  padding: 18px;
+}
+
+#hy-box1 {
+  position: absolute;
+  top: 690px;
+  left: 50px;
+  width: 260px;
+  background-color: #f2e8dd;
+  border: 3px solid #b88b6a;
+  padding: 16px;
+}
+
+#hy-box2 {
+  position: absolute;
+  top: 690px;
+  left: 390px;
+  width: 260px;
+  background-color: #ead8c7;
+  border: 3px solid #b88b6a;
+  padding: 16px;
+}
+
+#hy-image2 {
+  position: absolute;
+  top: 690px;
+  left: 730px;
+}
+
+#hy-image2 img {
+  width: 290px;
+  border: 4px solid #b88b6a;
+}
+
+#hy-box3 {
+  position: absolute;
+  top: 1060px;
+  left: 50px;
+  width: 260px;
+  background-color: #ead8c7;
+  border: 3px solid #b88b6a;
+  padding: 16px;
+}
+
+#hy-box4 {
+  position: absolute;
+  top: 1060px;
+  left: 390px;
+  width: 260px;
+  background-color: #f2e8dd;
+  border: 3px solid #b88b6a;
+  padding: 16px;
+}
+
+#hy-image3 {
+  position: absolute;
+  top: 1060px;
+  left: 730px;
+}
+
+#hy-image3 img {
+  width: 290px;
+  border: 4px solid #b88b6a;
+}
+
+#hy-box5 {
+  position: absolute;
+  top: 1410px;
+  left: 50px;
+  width: 970px;
+  background-color: #fffaf5;
+  border: 3px solid #b88b6a;
+  padding: 18px;
+}
+
+#hy-links-title {
+  position: absolute;
+  top: 1580px;
+  left: 50px;
+  width: 300px;
+  font-family: Georgia, serif;
+  color: #4b3528;
+}
+
+#hy-link1 {
+  position: absolute;
+  top: 1645px;
+  left: 50px;
+  width: 250px;
+}
+
+#hy-link2 {
+  position: absolute;
+  top: 1685px;
+  left: 50px;
+  width: 250px;
+}
+
+#hy-link3 {
+  position: absolute;
+  top: 1725px;
+  left: 50px;
+  width: 250px;
+}
+
+/* NEW EXTRA CONTENT TO FILL SPACE */
+
+#hy-quote {
+  position: absolute;
+  top: 1625px;
+  left: 390px;
+  width: 300px;
+  background-color: #efe2d4;
+  border: 3px solid #b88b6a;
+  padding: 18px;
+  font-family: Georgia, serif;
+  color: #5a4335;
+}
+
+#hy-beginner {
+  position: absolute;
+  top: 1625px;
+  left: 730px;
+  width: 290px;
+  background-color: #f2e8dd;
+  border: 3px solid #b88b6a;
+  padding: 18px;
+}
+
+#hy-back {
+  position: absolute;
+  top: 1875px;
+  left: 50px;
+  width: 300px;
+}
+
+/* HOT YOGA HEADINGS */
+
+#hy-title h1,
+#hy-links-title h2,
+#hy-box1 h2,
+#hy-box2 h2,
+#hy-box3 h2,
+#hy-box4 h2,
+#hy-box5 h2,
+#hy-beginner h2 {
+  font-family: Georgia, serif;
+  color: #4b3528;
+}  position: absolute;
   top: 180px;
   left: 60px;
 }
