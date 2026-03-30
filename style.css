@@ -1,4 +1,6 @@
+/* ===================== */
 /* GENERAL */
+/* ===================== */
 
 body {
   background-color: #f7f1ea;
@@ -76,31 +78,31 @@ a:hover {
   border: 3px solid #b88b6a;
 }
 
-/* MOVED TEXT LOWER SO IT DOES NOT COVER IMAGE */
+/* TEXT — MOVED UP BUT STILL BELOW IMAGE */
 
 #sc-text1 {
   position: absolute;
-  top: 800px;
+  top: 900px;
   left: 50px;
   width: 650px;
 }
 
 #sc-text2 {
   position: absolute;
-  top: 800px;
+  top: 950px;
   left: 50px;
   width: 650px;
 }
 
 #sc-home {
   position: absolute;
-  top: 1160px;
+  top: 1020px;
   left: 50px;
 }
 
 #sc-hotyoga {
   position: absolute;
-  top: 1210px;
+  top: 1070px;
   left: 50px;
 }
 
